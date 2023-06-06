@@ -1,0 +1,10 @@
+INSERT INTO role (name,id) VALUES ('seller',156);
+INSERT INTO role (name,id) VALUES ('customer',153);
+INSERT INTO user (id,firstname,lastname,role_id) VALUES (1,'Mark','Page',156);
+INSERT INTO user (id,firstname,lastname,role_id) VALUES (2,'Tim','Book',153);
+INSERT INTO user (id,firstname,lastname,role_id) VALUES (3,'Jeff','Bézo',156);
+INSERT INTO book (id,name,nb_page,price,user_id) VALUES (1,'Pensai de Blaiz Pasquet',3,3,null);
+INSERT INTO book (id,name,nb_page,price,user_id) VALUES (2,'YOOOO',100,10,null);
+INSERT INTO book (id,name,nb_page,price,user_id) VALUES (3,'Livrejrjjrj',20,5,null);
+INSERT INTO book (id,name,nb_page,price,user_id) VALUES (4,'Livre de mark',20,5,1);
+INSERT INTO book (id,name,nb_page,price,user_id) VALUES (5,'Livre de Tim',2000,200,2);
